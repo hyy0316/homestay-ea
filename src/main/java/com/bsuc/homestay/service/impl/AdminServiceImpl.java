@@ -32,7 +32,10 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
         map.put("admin_Username", admin.getAdminUsername());
         map.put("admin_Password", admin.getAdminPassword());
         List<Admin> admin2 = adminMapper.selectByMap(map);
-        admin2.forEach(System.out::println);
+        if(admin2.size()>0){
+            admin2.forEach(System.out::println);
+            return admin2.get(0);
+        }
         return admin2.get(0);
     }
 
