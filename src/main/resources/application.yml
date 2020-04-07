@@ -1,3 +1,5 @@
+server:
+  port: 8080
 #spring环境配置
 spring:
   #连接数据库的配置
@@ -40,6 +42,17 @@ spring:
     poolPreparedStatements: false
     # 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true
     maxOpenPreparedStatements: -1
+#  redis:
+#    database: 1
+#    host: 127.0.0.1
+#    port: 6379
+#    password:
+#    timeout: 6000
+#    pool:
+#      max-active: 1000
+#      max-wait: -1
+#      max-idle: 10
+#      min-idle: 5
 
   #thmeleaf的配置
   thymeleaf:
@@ -56,6 +69,8 @@ spring:
 #    check-template-location: true  #check-tempate-location: 检查模板路径是否存在
 #    suffix: .html
 #    enabled: true
+  #thmeleafend
+#pring end
 
 # pagehelper分页插件
 pagehelper:
@@ -71,7 +86,25 @@ mybatis:
   type-aliases-package: com.bsuc.homestay.entity
 
 #配置 日志
-logging：
-  config： classpath:log/logback.xml
-  path: E:\Homestay\homestay-log
+#logging：
+#  config：classpath:log/logback.xml
+#  path: E:\Homestay\homestay-log
+#logging:
+#  level:
+#    root: info
+#    com.bsuc.homestay: debug
+#  path: E:\Homestay\homestay-log
+#  file: log/myblog-dev.log
+homestay:
+  allowedOrigins: http://localhost:63343
 
+#mybatis日志
+
+mybatis-plus:
+  configuration:
+    log-impl:org:
+      apache:
+        ibatis:
+          logging:
+            stdout:
+              StdOutImpl:
