@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 
-import java.io.Serializable;
 import java.util.Objects;
 
 /**
@@ -12,7 +11,7 @@ import java.util.Objects;
  * Author： yyhuang
  * Date：2020/4/6 0006
  */
-public abstract class BaseEntity <T extends Model>  extends Model<T> {
+public abstract class BaseEntity <T extends Model>  {
     /**
      * 实体编号
      */
@@ -35,10 +34,6 @@ public abstract class BaseEntity <T extends Model>  extends Model<T> {
         return id;
     }
 
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
-    }
 
     @Override
     public boolean equals(Object o) {

@@ -28,11 +28,9 @@ public class LoginController {
 
     @Autowired
     AdminService adminService;
-    //登录 通过账号密码
+    //后台系统登录 通过账号密码
     @RequestMapping(value = "/login",produces = {"application/json;charset=UTF-8"})
     public Result loginMain(Admin admin ) throws Exception{
-
-
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
         result.setDetail(null);
@@ -56,4 +54,5 @@ public class LoginController {
         }
         return result;
     }
+
 }

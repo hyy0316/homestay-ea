@@ -89,22 +89,18 @@ mybatis:
 #logging：
 #  config：classpath:log/logback.xml
 #  path: E:\Homestay\homestay-log
-#logging:
-#  level:
-#    root: info
-#    com.bsuc.homestay: debug
-#  path: E:\Homestay\homestay-log
-#  file: log/myblog-dev.log
+logging:
+  level:
+    root: info
+  path: ./logs
 homestay:
   allowedOrigins: http://localhost:63343
 
 #mybatis日志
-
 mybatis-plus:
   configuration:
-    log-impl:org:
-      apache:
-        ibatis:
-          logging:
-            stdout:
-              StdOutImpl:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      logic-delete-field: flag  #全局逻辑删除字段值

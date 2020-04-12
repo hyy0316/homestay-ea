@@ -1,15 +1,12 @@
 package com.bsuc.homestay.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -24,12 +21,12 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Admin implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+//    private static final long serialVersionUID = 1L;
 
     /**
      * 管理员编号
      */
-    @TableId(value = "ADMIN_ID", type = IdType.ID_WORKER_STR)
+    @TableId(value = "ADMIN_ID", type = IdType.AUTO)
     private Integer adminId;
 
     /**
@@ -56,12 +53,15 @@ public class Admin implements Serializable {
     @TableField("ADMIN_PHONE")
     private String adminPhone;
 
+    /** 是否删除 *///逻辑删除字段
+    @TableLogic
     @TableField("IS_DELETE")
-    private String isDelete;
+    private Integer isDelete;
 
     /**
      * 乐观锁
      */
+    @Version
     @TableField("REVISION")
     private Integer revision;
 
@@ -74,7 +74,7 @@ public class Admin implements Serializable {
     /**
      * 创建时间
      */
-    @TableField("CREATED_TIME")
+    @TableField(value ="CREATED_TIME",fill = FieldFill.INSERT)
     private Date createdTime;
 
     /**
@@ -86,7 +86,7 @@ public class Admin implements Serializable {
     /**
      * 更新时间
      */
-    @TableField("UPDATED_TIME")
+    @TableField(value ="UPDATED_TIME", fill = FieldFill.INSERT_UPDATE)
     private Date updatedTime;
 
 

@@ -1,15 +1,13 @@
 package com.bsuc.homestay.entity;
 
-import java.math.BigDecimal;
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.util.Date;
-import com.baomidou.mybatisplus.annotation.Version;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * <p>
@@ -86,8 +84,17 @@ public class Guest implements Serializable {
     @TableField("GUEST_CONSUMPTION")
     private BigDecimal guestConsumption;
 
+    /** 是否删除 */
+    @TableLogic
     @TableField("IS_DELETE")
-    private String isDelete;
+    private Integer isDelete;
+
+    /**
+     * 乐观锁
+     */
+    @Version
+    @TableField("REVISION")
+    private Integer revision;
 
     /**
      * 更新时间
@@ -98,7 +105,7 @@ public class Guest implements Serializable {
     /**
      * 创建时间
      */
-    @TableField("CREATED_TIME")
+    @TableField(value ="CREATED_TIME",fill = FieldFill.INSERT)
     private Date createdTime;
 
 

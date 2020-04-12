@@ -1,7 +1,7 @@
 package com.bsuc.homestay.mapper;
 
-import com.bsuc.homestay.entity.Admin;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.bsuc.homestay.entity.Admin;
 
 /**
  * <p>

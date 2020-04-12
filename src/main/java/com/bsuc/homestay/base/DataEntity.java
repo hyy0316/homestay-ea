@@ -15,7 +15,7 @@ import java.util.Date;
  */
 
 @Data
-public abstract class DataEntity <T extends Model>  extends Model<T>{
+public abstract class DataEntity <T extends Model> {
     private static final long serialversionUID = 1L;
 
     public DataEntity() {
