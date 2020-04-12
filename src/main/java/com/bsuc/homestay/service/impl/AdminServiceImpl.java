@@ -53,12 +53,21 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     @Override
     public Admin findAdminById(Integer adminId) {
         QueryWrapper<Admin> queryWrapper = new QueryWrapper<>();
-        //查询姓名等于Tom
+        //查询id是否相等
         queryWrapper.eq("ADMIN_ID", adminId);
 
         Admin admins = adminMapper.selectOne(queryWrapper);
         System.out.println(admins);
         return admins;
+    }
+
+    @Override
+    public Integer userCount(String param) {
+        QueryWrapper<Admin> queryWrapper = new QueryWrapper<>();
+        //查询姓名或手机号是否相等
+        queryWrapper.eq("ADMIN_USERNAME", param).or().eq("ADMIN_PHONE", param);
+        int count = adminMapper.selectCount(queryWrapper);
+        return count;
     }
 
     @Override

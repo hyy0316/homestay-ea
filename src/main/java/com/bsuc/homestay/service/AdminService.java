@@ -18,6 +18,9 @@ public interface AdminService extends IService<Admin> {
 
     //查询根据id
     Admin findAdminById(Integer adminId);
+    //查询 根据username
+    Integer userCount(String param);
+
 
     //查询list
     List<Admin> findAdminList();

@@ -27,7 +27,6 @@ public class Admin implements Serializable {
     /**
      * 管理员编号
      */
-    @TableId(value = "ADMIN_ID", type = IdType.AUTO)
     private Integer adminId;
 
     /**
@@ -69,7 +68,7 @@ public class Admin implements Serializable {
     /**
      * 创建人
      */
-    @TableField(value = "CREATED_BY", fill = FieldFill.INSERT)
+    @TableField(value = "CREATED_BY")
     private String createdBy;
 
     /**
@@ -81,7 +80,7 @@ public class Admin implements Serializable {
     /**
      * 更新人
      */
-    @TableField(value = "UPDATED_BY", fill = FieldFill.INSERT_UPDATE)
+    @TableField(value = "UPDATED_BY")
     private String updatedBy;
 
     /**

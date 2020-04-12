@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.bsuc.homestay.base.Result;
 import com.bsuc.homestay.entity.Admin;
 import com.bsuc.homestay.service.AdminService;
+import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.transaction.annotation.Transactional;
@@ -68,24 +69,16 @@ public class AdminController {
     @ResponseBody
     @RequestMapping(value = "/findAdminList",produces = {"application/json;charset=UTF-8"})
     public  Result<Admin> findAdminList(@RequestParam(value = "page",defaultValue = "1") Integer page,
-                                                    @RequestParam(value = "size",defaultValue = "2") Integer size){
+                                                    @RequestParam(value = "size",defaultValue = "10") Integer size){
         //初始化
         Result result = new Result();
         result.setSuccess(false);
         result.setDetail(null);
-//        Map map = WebUtils.getParametersStartingWith(request,"s_");
-//        String key = (String) map.get("key");
-//        LayerData<Admin> adminLayerData = new LayerData<>();
-//        QueryWrapper<Admin> queryWrapper = new QueryWrapper<>();
-//        queryWrapper
-//                .like("name", key);
 
         Page<Admin> page2 = new Page<>(page, size);
 
         //分页查询
         adminService.page(page2,null);
-//        adminLayerData.setCount((int) page2.getTotal());
-//        adminLayerData.setData(page2.getRecords());
         result.setDetail(page2.getRecords());
         result.setCount((int) page2.getTotal());
         result.setSuccess(true);
@@ -106,13 +99,32 @@ public class AdminController {
      * 添加管理员
      * 使用ResponseBody返回Json格式数据
      */
+    @PostMapping(value = "/insertAdmin")
     @ResponseBody
-    @PostMapping(value = "/insertAdmin",produces = {"application/json;charset=UTF-8"})
-    public Result insertAdmin(Admin admin){
+    public Result insertAdmin(@RequestBody Admin admin){
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
         result.setDetail(null);
+        if (StringUtils.isNullOrEmpty(admin.getAdminPassword())){
+            result.setSuccess(false);
+            return result;
+        }
+
+        //查询用户名是否已存在
+        if(adminService.userCount(admin.getAdminUsername()) == 1){
+            result.setMsg("用户名已存在");
+            result.setSuccess(false);
+        }
+
+        //查询手机号是否已存在
+        if(adminService.userCount(admin.getAdminPhone()) == 1){
+            result.setMsg("手机号已绑定");
+            result.setSuccess(false);
+        }
+
+
         try {
+//            admin.setAdminPassword(ToolUtil.encryptBasedDes(admin.getAdminPassword()));
             Boolean flag = adminService.save(admin);
             if(flag){
                 result.setMsg("添加成功");
@@ -130,7 +142,7 @@ public class AdminController {
 
 
     /**
-     * 添加管理员
+     * 修改管理员
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
