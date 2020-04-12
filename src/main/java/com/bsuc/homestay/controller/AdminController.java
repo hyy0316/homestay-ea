@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @CrossOrigin
 @Transactional(rollbackFor = RuntimeException.class)
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class AdminController {
 
     @Value("$ser.prot")
@@ -35,7 +35,7 @@ public class AdminController {
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
-    @GetMapping(value = "/getAdminById/{adminId}")
+    @GetMapping(value = "/getAdminById/{adminId}",produces = {"application/json;charset=UTF-8"})
     public Result getAdminById(@PathVariable("adminId") Integer adminId){
         Result<Admin> result = new Result<Admin>();
         System.out.println(adminId);
@@ -66,16 +66,29 @@ public class AdminController {
      * @return
      */
     @ResponseBody
-    @GetMapping(value = "/findAdminList")
-    public Result findAdminList(@RequestParam(value = "page",defaultValue = "1") Integer page,@RequestParam(value = "size",defaultValue = "2") Integer size){
+    @RequestMapping(value = "/findAdminList",produces = {"application/json;charset=UTF-8"})
+    public  Result<Admin> findAdminList(@RequestParam(value = "page",defaultValue = "1") Integer page,
+                                                    @RequestParam(value = "size",defaultValue = "2") Integer size){
         //初始化
         Result result = new Result();
         result.setSuccess(false);
         result.setDetail(null);
+//        Map map = WebUtils.getParametersStartingWith(request,"s_");
+//        String key = (String) map.get("key");
+//        LayerData<Admin> adminLayerData = new LayerData<>();
+//        QueryWrapper<Admin> queryWrapper = new QueryWrapper<>();
+//        queryWrapper
+//                .like("name", key);
+
         Page<Admin> page2 = new Page<>(page, size);
 
         //分页查询
         adminService.page(page2,null);
+//        adminLayerData.setCount((int) page2.getTotal());
+//        adminLayerData.setData(page2.getRecords());
+        result.setDetail(page2.getRecords());
+        result.setCount((int) page2.getTotal());
+        result.setSuccess(true);
 
         System.out.println("当前页码:" + page2.getCurrent());
         System.out.println("总页数:" + page2.getPages());
@@ -84,16 +97,17 @@ public class AdminController {
 
         System.out.println("结果:");
         page2.getRecords().forEach(System.out::println);
-        result.setDetail(page2);
         return result;
     }
+
+
 
     /**
      * 添加管理员
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
-    @PostMapping(value = "/insertAdmin")
+    @PostMapping(value = "/insertAdmin",produces = {"application/json;charset=UTF-8"})
     public Result insertAdmin(Admin admin){
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
@@ -120,7 +134,7 @@ public class AdminController {
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
-    @PostMapping(value = "/upadataAdmin")
+    @PostMapping(value = "/upadataAdmin",produces = {"application/json;charset=UTF-8"})
     public Result upadataAdmin(Admin admin){
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
@@ -146,7 +160,7 @@ public class AdminController {
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
-    @GetMapping(value = "/deletebyAdmin")
+    @GetMapping(value = "/deletebyAdmin",produces = {"application/json;charset=UTF-8"})
     public Result deletebyAdmin(String adminId){
         Result<String> result = new Result<String>();
         result.setSuccess(false);

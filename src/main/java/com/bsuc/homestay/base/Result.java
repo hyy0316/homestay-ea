@@ -9,6 +9,9 @@ import lombok.Data;
  */
 @Data
 public class Result<T> {
+    private Integer code = 0;
+
+    private Integer count;
     //返回信息
     private String msg;
     //数据是否正常请求

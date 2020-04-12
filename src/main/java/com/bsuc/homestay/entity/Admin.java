@@ -1,6 +1,7 @@
 package com.bsuc.homestay.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -89,5 +90,13 @@ public class Admin implements Serializable {
     @TableField(value ="UPDATED_TIME", fill = FieldFill.INSERT_UPDATE)
     private Date updatedTime;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    public void setCreatedTime(Date createdTime) {
+        this.createdTime = createdTime;
+    }
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    public void setUpdatedTime(Date updatedTime) {
+        this.updatedTime = updatedTime;
+    }
 }
