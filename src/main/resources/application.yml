@@ -100,7 +100,11 @@ homestay:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    cache-enabled: false
+    jdbc-type-for-null: 'null'
   mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bsuc.homestay.entity
   global-config:
     db-config:
       logic-delete-field: flag  #全局逻辑删除字段值
+      meta-object-handler: com.bsuc.homestay.handle.MyMetaObjectHandler

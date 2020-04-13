@@ -75,6 +75,7 @@ public class AdminController {
         result.setSuccess(false);
         result.setDetail(null);
 
+
         Page<Admin> page2 = new Page<>(page, size);
 
         //分页查询
@@ -110,15 +111,17 @@ public class AdminController {
         }
 
         //查询用户名是否已存在
-        if(adminService.userCount(admin.getAdminUsername()) == 1){
+        if(adminService.userCount(admin.getAdminUsername()) > 1){
             result.setMsg("用户名已存在");
             result.setSuccess(false);
+            return result;
         }
 
         //查询手机号是否已存在
-        if(adminService.userCount(admin.getAdminPhone()) == 1){
+        if(adminService.userCount(admin.getAdminPhone()) > 1){
             result.setMsg("手机号已绑定");
             result.setSuccess(false);
+            return result;
         }
 
 
