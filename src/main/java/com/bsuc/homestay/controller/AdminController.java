@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
  * @since 2020-04-06
  */
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @Transactional(rollbackFor = RuntimeException.class)
 @RequestMapping("/api/admin")
 public class AdminController {
@@ -100,8 +100,7 @@ public class AdminController {
      * 使用ResponseBody返回Json格式数据
      */
     @PostMapping(value = "/insertAdmin")
-    @ResponseBody
-    public Result insertAdmin(@RequestBody Admin admin){
+    public Result insertAdmin( Admin admin){
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
         result.setDetail(null);

@@ -358,3 +358,589 @@ java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
 2020-04-13 01:52:41.203  INFO 13128 --- [RMI TCP Connection(3)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-13 01:52:41.204  INFO 13128 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-13 01:52:41.219  INFO 13128 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-04-13 01:56:26.519  INFO 13128 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 01:56:26.529  INFO 13128 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 01:56:31.435  INFO 13888 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 13888 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 01:56:31.441  INFO 13888 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 01:56:33.211  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.212  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.212  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.212  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.212  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.212  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.213  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.213  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.214  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.214  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.214  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.215  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 01:56:33.215  WARN 13888 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 01:56:34.516 ERROR 13888 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 01:56:34.785 ERROR 13888 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 01:56:34.974  INFO 13888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 01:56:34.991 ERROR 13888 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 01:56:34.992  INFO 13888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 01:56:34.993  INFO 13888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 01:56:35.167  INFO 13888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 01:56:35.167  INFO 13888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3589 ms
+2020-04-13 01:56:36.139  INFO 13888 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 01:56:37.617  INFO 13888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 01:56:38.142  INFO 13888 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 01:56:38.220  INFO 13888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 01:56:38.224  INFO 13888 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 7.744 seconds (JVM running for 10.202)
+2020-04-13 01:56:38.699  INFO 13888 --- [RMI TCP Connection(2)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 01:56:38.700  INFO 13888 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 01:56:38.713  INFO 13888 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-13 01:58:06.411  WARN 13888 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 02:19:10.613  WARN 13888 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 02:20:46.480  WARN 13888 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 02:30:15.837  WARN 13888 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 02:36:26.889  INFO 13888 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 02:36:26.919  INFO 13888 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 02:36:39.217  INFO 14628 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 14628 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 02:36:39.221  INFO 14628 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 02:36:40.389  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.389  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.389  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.389  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.390  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.390  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.390  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.390  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.390  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.391  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.391  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.391  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:36:40.391  WARN 14628 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 02:36:41.781 ERROR 14628 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:36:42.064 ERROR 14628 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:36:42.286  INFO 14628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 02:36:42.302 ERROR 14628 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:36:42.304  INFO 14628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 02:36:42.305  INFO 14628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 02:36:42.564  INFO 14628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 02:36:42.564  INFO 14628 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3265 ms
+2020-04-13 02:36:43.698  INFO 14628 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 02:36:45.351  INFO 14628 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 02:36:45.887  INFO 14628 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 02:36:46.041  INFO 14628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 02:36:46.048  INFO 14628 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 7.674 seconds (JVM running for 9.403)
+2020-04-13 02:36:47.254  INFO 14628 --- [RMI TCP Connection(4)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 02:36:47.256  INFO 14628 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 02:36:47.269  INFO 14628 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-13 02:37:27.690  WARN 14628 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 02:47:55.108  INFO 14628 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 02:47:55.116  INFO 14628 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 02:48:04.915  INFO 14468 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 14468 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 02:48:04.920  INFO 14468 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 02:48:06.591  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.591  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.592  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.592  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.592  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.592  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.593  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 02:48:06.594  WARN 14468 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 02:48:08.189 ERROR 14468 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:48:08.425 ERROR 14468 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:48:08.569  INFO 14468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 02:48:08.585 ERROR 14468 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 02:48:08.587  INFO 14468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 02:48:08.587  INFO 14468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 02:48:08.804  INFO 14468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 02:48:08.805  INFO 14468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3693 ms
+2020-04-13 02:48:09.929  INFO 14468 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 02:48:12.763  INFO 14468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 02:48:13.618  INFO 14468 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 02:48:13.766  INFO 14468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 02:48:13.771  INFO 14468 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 9.954 seconds (JVM running for 11.897)
+2020-04-13 02:48:14.645  INFO 14468 --- [RMI TCP Connection(3)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 02:48:14.647  INFO 14468 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 02:48:14.666  INFO 14468 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-04-13 03:02:21.695  WARN 14468 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:14:55.937  WARN 14468 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:22:36.597  WARN 14468 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:24:31.365  WARN 14468 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:25:57.131  WARN 14468 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:26:45.404  INFO 14468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 03:26:45.418  INFO 14468 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 03:26:52.191  INFO 3292 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 3292 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 03:26:52.196  INFO 3292 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 03:26:53.256  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.257  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.257  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.257  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.257  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.257  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.258  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 03:26:53.259  WARN 3292 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 03:26:54.594 ERROR 3292 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 03:26:54.820 ERROR 3292 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 03:26:55.026  INFO 3292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 03:26:55.043 ERROR 3292 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 03:26:55.045  INFO 3292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 03:26:55.045  INFO 3292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 03:26:55.831  INFO 3292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 03:26:55.831  INFO 3292 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3544 ms
+2020-04-13 03:26:56.801  INFO 3292 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 03:26:58.432  INFO 3292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 03:26:58.842  INFO 3292 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 03:26:58.920  INFO 3292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 03:26:58.931  INFO 3292 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 7.853 seconds (JVM running for 9.719)
+2020-04-13 03:26:59.573  INFO 3292 --- [RMI TCP Connection(4)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 03:26:59.573  INFO 3292 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 03:26:59.585  INFO 3292 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-13 03:27:27.286  WARN 3292 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 03:55:56.836  WARN 3292 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.bsuc.homestay.base.Result com.bsuc.homestay.controller.AdminController.insertAdmin(com.bsuc.homestay.entity.Admin)]
+2020-04-13 03:56:55.876  WARN 3292 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-04-13 03:57:11.903  WARN 3292 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.bsuc.homestay.base.Result com.bsuc.homestay.controller.AdminController.insertAdmin(com.bsuc.homestay.entity.Admin)]
+2020-04-13 04:03:09.935  WARN 3292 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:03:47.447  WARN 3292 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:05:25.360  WARN 3292 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('a' (code 97)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-04-13 04:06:32.194  WARN 3292 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('a' (code 97)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-04-13 04:11:07.047  WARN 3292 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('a' (code 97)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-04-13 04:12:28.714  WARN 3292 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('a' (code 97)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-04-13 04:15:28.246 ERROR 3292 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException:  The SQL execution time is too large, please optimize ! 
+### The error may exist in com/bsuc/homestay/mapper/AdminMapper.java (best guess)
+### The error may involve com.bsuc.homestay.mapper.AdminMapper.selectCount
+### The error occurred while handling results
+### SQL: SELECT COUNT(1) FROM admin  WHERE  IS_DELETE=0   AND ADMIN_USERNAME = ? OR ADMIN_PHONE = ?
+### Cause: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException:  The SQL execution time is too large, please optimize ! ] with root cause
+
+com.baomidou.mybatisplus.core.exceptions.MybatisPlusException:  The SQL execution time is too large, please optimize ! 
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:51) ~[mybatis-plus-core-3.0.5.jar:na]
+	at com.baomidou.mybatisplus.core.toolkit.Assert.isTrue(Assert.java:41) ~[mybatis-plus-core-3.0.5.jar:na]
+	at com.baomidou.mybatisplus.core.toolkit.Assert.isFalse(Assert.java:53) ~[mybatis-plus-core-3.0.5.jar:na]
+	at com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor.intercept(PerformanceInterceptor.java:194) ~[mybatis-plus-extension-3.0.5.jar:na]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy129.query(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy129.query(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy128.query(Unknown Source) ~[na:na]
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143) ~[pagehelper-5.1.2.jar:na]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61) ~[mybatis-3.4.5.jar:3.4.5]
+	at com.sun.proxy.$Proxy128.query(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) ~[mybatis-3.4.5.jar:3.4.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77) ~[mybatis-3.4.5.jar:3.4.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at com.sun.proxy.$Proxy95.selectOne(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:101) ~[mybatis-plus-core-3.0.5.jar:na]
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64) ~[mybatis-plus-core-3.0.5.jar:na]
+	at com.sun.proxy.$Proxy99.selectCount(Unknown Source) ~[na:na]
+	at com.bsuc.homestay.service.impl.AdminServiceImpl.userCount(AdminServiceImpl.java:69) ~[classes/:na]
+	at com.bsuc.homestay.service.impl.AdminServiceImpl$$FastClassBySpringCGLIB$$f630e4e7.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.bsuc.homestay.service.impl.AdminServiceImpl$$EnhancerBySpringCGLIB$$20b3a4d9.userCount(<generated>) ~[classes/:na]
+	at com.bsuc.homestay.controller.AdminController.insertAdmin(AdminController.java:114) ~[classes/:na]
+	at com.bsuc.homestay.controller.AdminController$$FastClassBySpringCGLIB$$565cfcd.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.bsuc.homestay.controller.AdminController$$EnhancerBySpringCGLIB$$3771654b.insertAdmin(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at com.bsuc.homestay.config.CorsFilter.doFilter(CorsFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-04-13 04:20:28.699 ERROR 3292 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only] with root cause
+
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:870) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:707) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:631) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.bsuc.homestay.controller.AdminController$$EnhancerBySpringCGLIB$$3771654b.insertAdmin(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at com.bsuc.homestay.config.CorsFilter.doFilter(CorsFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-04-13 04:28:50.740  INFO 17064 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 17064 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 04:28:50.746  INFO 17064 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 04:28:54.009  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.010  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.010  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.010  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.011  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.011  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.011  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.011  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.012  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.012  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.012  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.012  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:28:54.012  WARN 17064 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 04:28:55.505 ERROR 17064 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:28:56.266 ERROR 17064 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:28:57.261  INFO 17064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 04:28:57.397 ERROR 17064 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:28:57.398  INFO 17064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 04:28:57.399  INFO 17064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 04:28:57.990  INFO 17064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 04:28:57.991  INFO 17064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7091 ms
+2020-04-13 04:29:00.046  INFO 17064 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 04:29:02.527  INFO 17064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 04:29:02.944  INFO 17064 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 04:29:03.067  INFO 17064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 04:29:03.072  INFO 17064 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 13.911 seconds (JVM running for 19.663)
+2020-04-13 04:29:03.699  INFO 17064 --- [RMI TCP Connection(8)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 04:29:03.700  INFO 17064 --- [RMI TCP Connection(8)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 04:29:03.718  INFO 17064 --- [RMI TCP Connection(8)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-04-13 04:32:15.301  INFO 17064 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 04:32:15.321  INFO 17064 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 04:32:23.668  INFO 11224 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 11224 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 04:32:23.674  INFO 11224 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.822  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.823  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.823  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.827  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.828  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.828  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 04:32:24.828  WARN 11224 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 04:32:26.044 ERROR 11224 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:32:26.311 ERROR 11224 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:32:26.529  INFO 11224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 04:32:26.547 ERROR 11224 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 04:32:26.549  INFO 11224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 04:32:26.549  INFO 11224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 04:32:26.711  INFO 11224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 04:32:26.712  INFO 11224 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2945 ms
+2020-04-13 04:32:27.529  INFO 11224 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 04:32:28.786  INFO 11224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 04:32:29.160  INFO 11224 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 04:32:29.237  INFO 11224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 04:32:29.241  INFO 11224 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 6.439 seconds (JVM running for 8.041)
+2020-04-13 04:32:29.922  INFO 11224 --- [RMI TCP Connection(4)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 04:32:29.922  INFO 11224 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 04:32:29.937  INFO 11224 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-04-13 04:46:12.094  WARN 11224 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:49:51.733  WARN 11224 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:50:50.663  WARN 11224 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:50:59.728  WARN 11224 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:51:01.575  WARN 11224 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:51:02.862  WARN 11224 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:51:03.718  WARN 11224 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:51:04.340  WARN 11224 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 04:55:19.199  WARN 11224 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 11:14:46.188  INFO 11224 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 11:14:46.191  INFO 11224 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 21:33:25.192  INFO 7496 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 7496 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 21:33:25.360  INFO 7496 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.414  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.415  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:33:49.418  WARN 7496 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 21:34:15.859 ERROR 7496 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:34:17.587 ERROR 7496 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:34:25.264  INFO 7496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 21:34:25.376 ERROR 7496 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:34:25.377  INFO 7496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 21:34:25.378  INFO 7496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 21:34:26.652  INFO 7496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 21:34:26.652  INFO 7496 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 59278 ms
+2020-04-13 21:34:33.443  INFO 7496 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 21:34:37.307  INFO 7496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 21:34:37.959  INFO 7496 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 21:34:38.159 ERROR 7496 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:34:38.171  INFO 7496 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-04-13 21:34:38.205  INFO 7496 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-13 21:34:38.225 ERROR 7496 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-04-13 21:34:38.234  WARN 7496 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-04-13 21:34:38.237  INFO 7496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 21:34:38.256  INFO 7496 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 21:39:51.833  INFO 16480 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 16480 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 21:39:51.838  INFO 16480 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 21:39:52.765  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.766  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.766  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.766  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.766  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.766  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.767  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:39:52.768  WARN 16480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 21:39:53.810 ERROR 16480 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:39:54.024 ERROR 16480 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:39:54.174  INFO 16480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 21:39:54.192 ERROR 16480 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:39:54.221  INFO 16480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 21:39:54.222  INFO 16480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 21:39:54.526  INFO 16480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 21:39:54.526  INFO 16480 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2604 ms
+2020-04-13 21:39:55.164  INFO 16480 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 21:39:56.220  INFO 16480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 21:39:56.588  INFO 16480 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 21:39:56.681  INFO 16480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 21:39:56.685  INFO 16480 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 5.867 seconds (JVM running for 7.845)
+2020-04-13 21:39:57.822  INFO 16480 --- [RMI TCP Connection(4)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 21:39:57.823  INFO 16480 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 21:39:57.868  INFO 16480 --- [RMI TCP Connection(4)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-04-13 21:40:23.762  WARN 16480 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:43:08.192  WARN 16480 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:44:00.049  INFO 16480 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 21:44:00.057  INFO 16480 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 21:44:04.747  INFO 16424 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 16424 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 21:44:04.758  INFO 16424 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 21:44:05.967  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.968  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.968  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.968  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.969  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.970  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.970  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 21:44:05.970  WARN 16424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 21:44:07.135 ERROR 16424 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:44:07.348 ERROR 16424 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:44:07.598  INFO 16424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 21:44:07.616 ERROR 16424 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 21:44:07.617  INFO 16424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 21:44:07.618  INFO 16424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 21:44:07.869  INFO 16424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 21:44:07.870  INFO 16424 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2995 ms
+2020-04-13 21:44:08.990  INFO 16424 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 21:44:10.529  INFO 16424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 21:44:10.872  INFO 16424 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 21:44:10.950  INFO 16424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 21:44:10.954  INFO 16424 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 7.276 seconds (JVM running for 9.672)
+2020-04-13 21:44:11.656  INFO 16424 --- [RMI TCP Connection(3)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 21:44:11.657  INFO 16424 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 21:44:11.667  INFO 16424 --- [RMI TCP Connection(3)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-13 21:45:25.808  WARN 16424 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:48:51.831  WARN 16424 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:07.879  WARN 16424 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:12.195  WARN 16424 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:12.725  WARN 16424 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:12.913  WARN 16424 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.068  WARN 16424 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.191  WARN 16424 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.316  WARN 16424 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.439  WARN 16424 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.560  WARN 16424 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 21:58:13.677  WARN 16424 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 22:00:37.788  WARN 16424 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 22:00:39.313  WARN 16424 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 22:11:54.986  WARN 16424 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 22:12:48.604  WARN 16424 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-04-13 22:15:20.516  INFO 16424 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-13 22:15:20.529  INFO 16424 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-13 22:15:32.827  INFO 864 --- [main] com.bsuc.homestay.HomestayApplication    : Starting HomestayApplication on YQG1ZQUH5EZSP9J with PID 864 (E:\Homestay\homestay-ea\target\classes started by Administrator in E:\Homestay\homestay-ea)
+2020-04-13 22:15:32.832  INFO 864 --- [main] com.bsuc.homestay.HomestayApplication    : No active profile set, falling back to default profiles: default
+2020-04-13 22:15:34.009  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'adminMapper' and 'com.bsuc.homestay.mapper.AdminMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.010  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingDetatilMapper' and 'com.bsuc.homestay.mapper.BookingDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.011  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'bookingMapper' and 'com.bsuc.homestay.mapper.BookingMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.012  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.bsuc.homestay.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.012  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'gradeMapper' and 'com.bsuc.homestay.mapper.GradeMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.013  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestCheckinMapper' and 'com.bsuc.homestay.mapper.GuestCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.013  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guestMapper' and 'com.bsuc.homestay.mapper.GuestMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.014  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'homestayMapper' and 'com.bsuc.homestay.mapper.HomestayMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.014  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderDetatilMapper' and 'com.bsuc.homestay.mapper.OrderDetatilMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.015  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomCheckinMapper' and 'com.bsuc.homestay.mapper.RoomCheckinMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.015  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomMapper' and 'com.bsuc.homestay.mapper.RoomMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.016  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roomuseMapper' and 'com.bsuc.homestay.mapper.RoomuseMapper' mapperInterface. Bean already defined with the same name!
+2020-04-13 22:15:34.016  WARN 864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.bsuc.homestay.mapper]' package. Please check your configuration.
+2020-04-13 22:15:35.290 ERROR 864 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 22:15:35.451 ERROR 864 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 22:15:35.578  INFO 864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-13 22:15:35.597 ERROR 864 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-13 22:15:35.598  INFO 864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-13 22:15:35.599  INFO 864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-13 22:15:35.779  INFO 864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-13 22:15:35.779  INFO 864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2768 ms
+2020-04-13 22:15:36.664  INFO 864 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-13 22:15:37.565  INFO 864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-13 22:15:37.921  INFO 864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-13 22:15:38.000  INFO 864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-13 22:15:38.005  INFO 864 --- [main] com.bsuc.homestay.HomestayApplication    : Started HomestayApplication in 6.091 seconds (JVM running for 8.025)
+2020-04-13 22:15:38.537  INFO 864 --- [RMI TCP Connection(2)-192.168.1.14] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-13 22:15:38.537  INFO 864 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-13 22:15:38.549  INFO 864 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms

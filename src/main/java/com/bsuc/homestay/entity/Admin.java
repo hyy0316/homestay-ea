@@ -98,4 +98,7 @@ public class Admin implements Serializable {
     public void setUpdatedTime(Date updatedTime) {
         this.updatedTime = updatedTime;
     }
+
+    public Admin() {
+    }
 }
