@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-@MapperScan("com.bsuc.homestay.mapper")
+@MapperScan(basePackages = {"com.bsuc.homestay.mapper"})
 public class HomestayApplication {
 
     public static void main(String[] args) {

@@ -25,15 +25,17 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
     @Override
     public void insertFill(MetaObject metaObject) {
         LOGGER.info("start insert fill ...");
-        boolean createTime = metaObject.hasSetter("createTime");
-//        Object createTime = getFieldValByName("createTime", metaObject);
-        if (createTime){
-            setFieldValByName("createTime", new Date(), metaObject);
+//        boolean createTime = metaObject.hasSetter("createTime");
+        Object createsTime = getFieldValByName("createsTime", metaObject);
+
+        System.out.println(System.currentTimeMillis());
+        if (createsTime == null){
+            setFieldValByName("createdTime", new Date(System.currentTimeMillis()), metaObject);
         }
 
-        Object updateTime = getFieldValByName("updateTime", metaObject);
-        if (updateTime == null){
-            setFieldValByName("updateTime", new Date(), metaObject);
+        Object updatedTime = getFieldValByName("updatedTime", metaObject);
+        if (updatedTime == null){
+            setFieldValByName("updatedTime", new Date(System.currentTimeMillis()), metaObject);
         }
 //
 //        this.setFieldValByName("createTime", new Date(), metaObject);
