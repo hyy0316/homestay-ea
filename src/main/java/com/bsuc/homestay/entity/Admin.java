@@ -1,9 +1,6 @@
 package com.bsuc.homestay.entity;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -29,7 +26,7 @@ public class Admin implements Serializable {
     /**
      * 管理员编号
      */
-//    @TableId(value = "ADMIN_ID",type = IdType.AUTO)
+    @TableId(value = "ADMIN_ID",type = IdType.AUTO)
     private Integer adminId;
 
     /**

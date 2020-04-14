@@ -50,6 +50,10 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
     @Override
     public void updateFill(MetaObject metaObject) {
         LOGGER.info("start updateFill ...");
-        this.setFieldValByName("updateTime", new Date(), metaObject);
+
+        Object updatedTime = getFieldValByName("updatedTime", metaObject);
+        if (updatedTime == null){
+            this.setFieldValByName("updatedTime", new Date(), metaObject);
+        }
     }
 }

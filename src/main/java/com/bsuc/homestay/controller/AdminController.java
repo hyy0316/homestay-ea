@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 /**
  * <p>
  * 管理员表 前端控制器
@@ -36,8 +38,9 @@ public class AdminController {
      * 使用ResponseBody返回Json格式数据
      */
     @ResponseBody
-    @GetMapping(value = "/getAdminById/{adminId}",produces = {"application/json;charset=UTF-8"})
-    public Result getAdminById(@PathVariable("adminId") Integer adminId){
+    @GetMapping(value = "/getAdminById", produces = {"application/json;charset=UTF-8"})
+    public Result getAdminById(@RequestBody Map<String, Integer> map) {
+        Integer adminId = map.get("id");
         Result<Admin> result = new Result<Admin>();
         System.out.println(adminId);
         result.setSuccess(false);
@@ -45,15 +48,15 @@ public class AdminController {
 
         try {
             Admin admin1 = adminService.findAdminById(adminId);
-            if(admin1 == null){
+            if (admin1 == null) {
                 result.setMsg("找不到该用户信息");
-            }else{
+            } else {
                 result.setMsg("查找成功");
                 result.setSuccess(true);
                 result.setDetail(admin1);
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             result.setMsg(e.getMessage());
             e.printStackTrace();
         }
@@ -147,8 +150,7 @@ public class AdminController {
      * 修改管理员
      * 使用ResponseBody返回Json格式数据
      */
-    @ResponseBody
-    @PostMapping(value = "/upadataAdmin",produces = {"application/json;charset=UTF-8"})
+    @PostMapping(value = "/upadataAdmin")
     public Result upadataAdmin(Admin admin){
         Result<Admin> result = new Result<Admin>();
         result.setSuccess(false);
@@ -173,22 +175,27 @@ public class AdminController {
      * 删除管理员  （将使用的是逻辑删除，只是修改状态）
      * 使用ResponseBody返回Json格式数据
      */
-    @ResponseBody
-    @GetMapping(value = "/deletebyAdmin",produces = {"application/json;charset=UTF-8"})
-    public Result deletebyAdmin(String adminId){
+    @RequestMapping(value = "/deletebyAdmin")
+    public Result deletebyAdmin(@RequestParam("id") Integer adminId) {
         Result<String> result = new Result<String>();
         result.setSuccess(false);
         result.setDetail(null);
+
+
         try {
+//            boolean flag = true;
+//            for (Integer adminId : adminIds) {
+//                System.out.println(adminId);
+//            }
             Boolean flag = adminService.removeById(adminId);
-            if(flag){
+            if (flag) {
                 result.setMsg("删除成功");
                 result.setSuccess(true);
                 result.setDetail("");
-            }else{
+            } else {
                 result.setMsg("修改失败");
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             result.setMsg(e.getMessage());
             e.printStackTrace();
         }
