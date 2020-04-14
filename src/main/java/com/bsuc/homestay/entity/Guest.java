@@ -22,7 +22,7 @@ import java.util.Date;
 @Accessors(chain = true)
 public class Guest implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+//    private static final long serialVersionUID = 1L;
 
     /**
      * 客户编号
@@ -99,7 +99,7 @@ public class Guest implements Serializable {
     /**
      * 更新时间
      */
-    @TableField("UPDATED_TIME")
+    @TableField(value ="UPDATED_TIME", fill = FieldFill.INSERT_UPDATE)
     private Date updatedTime;
 
     /**
@@ -108,5 +108,6 @@ public class Guest implements Serializable {
     @TableField(value ="CREATED_TIME",fill = FieldFill.INSERT)
     private Date createdTime;
 
-
+    public Guest() {
+    }
 }

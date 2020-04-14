@@ -84,7 +84,7 @@ logging:
     root: info
   path: ./logs
 homestay:
-  allowedOrigins: http://localhost:63343
+  allowedOrigins: http://localhost:63343,http://localhost:63342
 
 #mybatis日志
 mybatis-plus:
